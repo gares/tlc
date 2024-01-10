@@ -479,30 +479,15 @@ Proof using.
   permut_conclude.
 Qed.
 Elpi TC.Solver.
+Elpi Override TC TC.Solver All.
+
 Lemma demo_multiset_union_permut_simpl_2 :
   forall
   (x:A) l1 l2 l3 l4,
   (l1 \u \{x} \u l3 \u l2) \c (l1 \u l2 \u l4 \u (\{x} \u l3)).
 Proof using.
   intros.
-  rew_permut_simpl.
-     apply permut_tactic_setup.
-performance.
-
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-   rewrite <- union_assoc.
-
-  Elpi Bound Steps 1.
   permut_simpl_prepare.
-
-
-
   permut_simpl_once.
   permut_simpl_once.
   permut_simpl_once.
