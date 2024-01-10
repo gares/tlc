@@ -94,6 +94,13 @@ Definition map_ A B1 B2 (F:A->B1->B2) (f:map A B1) : map A B2 :=
 
 
 (* ---------------------------------------------------------------------- *)
+(** ** Extensionality *)
+
+#[global]
+Instance Extensionality_map : forall A B, Extensionality (map A B).
+Proof. unfold map. apply _. Defined.
+
+(* ---------------------------------------------------------------------- *)
 (** ** Notation through typeclasses *)
 
 #[global]
@@ -451,7 +458,7 @@ Proof using.
 Qed.
 
 Lemma dom_empty_inv : forall A B (M : map A B),
-  dom M = \{} ->
+   (dom M ) = (\{} : set _ ) -> (* wrong order of goals *)
   M = \{}.
 Proof using.
   introv H. simpls. unfold dom_impl, empty_impl in *.

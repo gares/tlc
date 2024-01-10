@@ -7,6 +7,8 @@ Set Implicit Arguments.
 From TLC Require Import LibTactics LibAxioms.
 Generalizable Variables A.
 
+From elpi.apps Require Export tc.
+Elpi Override TC TC.Solver All.
 
 (* ********************************************************************** *)
 (** * Definition of equality *)

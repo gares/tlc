@@ -257,7 +257,7 @@ Ltac total_order_normalize :=
 Lemma total_order_le_is_rclosure_lt : forall (To:total_order R),
   le = rclosure lt.
 Proof using.
-  extens. intros. total_order_normalize. iff M.
+  extens. intros x y. total_order_normalize. iff M.
   tests~: (x = y).
   destruct M. autos*. subst*. dintuition eauto.
 Qed.
@@ -271,7 +271,7 @@ Qed.
 Lemma total_order_ge_is_rclosure_gt : forall (To:total_order R),
   ge = rclosure gt.
 Proof using.
-  extens. intros. total_order_normalize. iff M.
+  extens. intros x y. total_order_normalize. iff M.
   tests~: (x = y).
   destruct M. autos*. subst*. dintuition eauto.
 Qed.
@@ -279,7 +279,7 @@ Qed.
 Lemma total_order_gt_is_strict_ge : forall (To:total_order R),
   gt = strict ge.
 Proof using.
-  extens. intros. total_order_normalize. iff M.
+  extens. intros x y. total_order_normalize. iff M.
   tests~: (x = y).
   destruct M. autos*.
   destruct M. autos*.

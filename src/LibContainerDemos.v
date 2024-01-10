@@ -104,7 +104,7 @@ Module Internal.
 (** Finite maps are implemented using the typeclasses defined in
     LibContainer. The internal implementation is: *)
 
-Definition map (A B : Type) := A -> option B.
+Notation map := LibMap.map.
 
 (** The internal definition of [read] in a map is thus a function
     that applies the map to the index. When the result is [None]
@@ -159,7 +159,6 @@ Proof. constructor. applys (@read_impl A B IB). Defined.
 
 (** In the light of this, let's inspect the interpretation of [m[i]].
     It means [@read int val (map int val) read_inst m i]. *)
-
 Definition my_read (m:map int val) (i:int): val :=
   m[i].
 
