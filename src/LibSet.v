@@ -108,7 +108,8 @@ Lemma in_inst : forall A, BagIn A (set A).
 Proof using. constructor. exact (@in_impl A). Defined.
 
 #[global]
-Hint Extern 1 (BagIn _ (set _)) => apply in_inst : typeclass_instances.
+(*Hint Extern 1 (BagIn _ (set _)) => apply in_inst : typeclass_instances.*)
+Existing Instance  in_inst.
 (* -- LATER: could this be an instance like all others ? *)
 
 #[global]

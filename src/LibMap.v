@@ -451,7 +451,7 @@ Proof using.
 Qed.
 
 Lemma dom_empty_inv : forall A B (M : map A B),
-  dom M = \{} ->
+   (dom M ) = (\{} : set _ ) -> (* wrong order of goals *)
   M = \{}.
 Proof using.
   introv H. simpls. unfold dom_impl, empty_impl in *.

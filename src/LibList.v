@@ -6,12 +6,18 @@
 
 Set Implicit Arguments.
 Require Import Coq.Classes.Morphisms. (* for [Proper] instances *)
+
 From TLC Require Import LibTactics LibLogic LibReflect LibOperation
  LibProd LibOption LibNat LibInt LibWf LibMonoid LibRelation.
 Generalizable Variables A B.
 Local Open Scope nat_scope.
 Local Open Scope comp_scope.
 Global Close Scope list_scope.
+
+Elpi TC.AddAllClasses.
+Elpi Override TC TC.Solver All.
+Elpi Override TC - Proper ProperProxy subrelation.
+
 
 
 (* ********************************************************************** *)

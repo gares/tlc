@@ -63,7 +63,7 @@ Definition length : forall A, list A -> nat :=
 
 Lemma length_eq :
   length = LibList.length.
-Proof using. extens ;=> A l. induction l; simpl; rew_list; auto. Qed.
+Proof using. HO. extens ;=> A l. induction l; simpl; rew_list; auto. Qed.
 
 #[global] Hint Rewrite length_eq : rew_list_exec.
 

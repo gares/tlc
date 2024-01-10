@@ -63,9 +63,11 @@ Definition card_impl A (E:multiset A) :=
 Lemma in_inst : forall A, BagIn A (multiset A).
 Proof using. constructor. exact (@in_impl A). Defined.
 
-#[global]
+(*#[global]
 Hint Extern 1 (BagIn _ (multiset _)) => apply in_inst
-  : typeclass_instances.
+  : typeclass_instances.*)
+
+#[global] Existing Instance in_inst.
 
 #[global]
 Instance empty_inst : forall A, BagEmpty (multiset A).
@@ -476,14 +478,31 @@ Proof using.
   rew_permut_simpl.
   permut_conclude.
 Qed.
-
+Elpi TC.Solver.
 Lemma demo_multiset_union_permut_simpl_2 :
   forall
   (x:A) l1 l2 l3 l4,
   (l1 \u \{x} \u l3 \u l2) \c (l1 \u l2 \u l4 \u (\{x} \u l3)).
 Proof using.
   intros.
+  rew_permut_simpl.
+     apply permut_tactic_setup.
+performance.
+
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+   rewrite <- union_assoc.
+
+  Elpi Bound Steps 1.
   permut_simpl_prepare.
+
+
+
   permut_simpl_once.
   permut_simpl_once.
   permut_simpl_once.

@@ -7,6 +7,8 @@ Set Implicit Arguments.
 From TLC Require Import LibTactics LibAxioms.
 Generalizable Variables A.
 
+From elpi.apps Require Export tc.
+Elpi Override TC TC.Solver All.
 
 (* ********************************************************************** *)
 (** * Definition of equality *)
@@ -56,6 +58,26 @@ Class Extensionality (A:Type) := Extensionality_make {
 
 Arguments extensionality [A].
 Arguments Extensionality_make [A] [extensionality_hyp].
+
+Elpi Accumulate TC.Solver lp:{{
+:before "0"
+tc-TLC.LibEqual.tc-Extensionality T S :- not(rigid T), !,
+  reduce-to-prods T T1, tc-TLC.LibEqual.tc-Extensionality T1 S.
+
+pred rigid i:term.
+rigid (sort _).
+rigid (global (indt _)).
+rigid (app [X|_]) :- rigid X.
+rigid (prod _ _ _).
+rigid X :- name X.
+
+pred reduce-to-prods i:term, o:term.
+reduce-to-prods (global _ as X) Y :- whd1 X X1, !, reduce-to-prods X1 Y.
+reduce-to-prods (app[global _|_] as X) Y :- whd1 X X1, !, reduce-to-prods X1 Y.
+reduce-to-prods (prod N S T) (prod N S Y) :- !, @pi-decl N S x\ reduce-to-prods (T x) (Y x).
+reduce-to-prods X X :- rigid X.
+
+}}.
 
 (** Instance for propositional extensionality *)
 

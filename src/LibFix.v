@@ -669,7 +669,9 @@ Lemma local_limit_dep_inv : forall I A {IA:Inhab A}
   family_r M j i ->
   family_sim M j (v j) (local_limit_dep M i (fun j _ => v j)).
 Proof using.
-  intros. forwards~ (l&Eq&L): local_limit_dep_name. rewrite~ Eq.
+  intros. 
+  (* I did put input mode for inhab, but here it is not known to be A *)
+  forwards~ (l&Eq&L): (@local_limit_dep_name I A). rewrite~ Eq.
 Qed.
 
 (** The proof that local- and global completeness suffice to
@@ -874,8 +876,8 @@ Proof using.
      (forall k, family_r M k i -> Q k (v k)) ->
      family_sim M j (v j) (v i)).
     intros i j Rji Cohi Cohj Qk. do 2 rewrite Fixv. unfold V.
-    forwards* (l1&El1&L1): (>> (@local_limit_dep_name I) j).
-    forwards* (l2&El2&L2): (>> (@local_limit_dep_name I) i).
+    forwards* (l1&El1&L1): (>> (@local_limit_dep_name I A) j).
+    forwards* (l2&El2&L2): (>> (@local_limit_dep_name I A) i).
     rewrite El1. rewrite El2. clear El1 El2.
     apply (proj1 (forall_conj_inv_4 Contr)). intros k Rkj.
     asserts Rkj': (family_r M k i). apply* ofe_trans. splits.
@@ -893,7 +895,7 @@ Proof using.
     apply~ Coh. intros k Rkj'. apply IH2. apply* trans_inv.
     (* step the invariant *)
     introv Cohi. rewrite Fixv. unfold V.
-    forwards* (l&El&L): (>> (@local_limit_dep_name I) i).
+    forwards* (l&El&L): (>> (@local_limit_dep_name I A) i).
     rewrite El. clear El. (* --TODO: limitation of forward *)
     applys~ (contractive_to_invariant Cofe Contr).
     introv Rji. applys~ (Conti (predecessor i) v).
@@ -911,7 +913,7 @@ Proof using.
   applys (proj1 (forall_conj_inv_4 Contr)). intros j Rji. splits.
     applys~ (trans_sym_rl l). applys~ (trans_sym_rl (v j)).
      applys~ local_limit_dep_inv.
-    forwards* (l1&El1&L1): (>> (@local_limit_dep_name I) i).
+    forwards* (l1&El1&L1): (>> (@local_limit_dep_name I A) i).
      rewrite El1. clear El1. applys~ (Conti (predecessor i) v).
     applys~ (Conti pred_true v). intros k _. applys~ (trans_inv l).
   (* 2- uniqueness *)

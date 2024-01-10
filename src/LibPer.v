@@ -11,7 +11,10 @@
 
 Set Implicit Arguments.
 From TLC Require Import LibTactics LibLogic LibBool LibLogic LibRelation LibContainer LibSet.
-Module Rel := LibRelation.
+(*Module Rel := LibRelation.*)
+Module Rel.
+Notation union := LibRelation.union.
+End Rel. 
 
 
 (* ********************************************************************** *)
