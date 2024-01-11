@@ -487,6 +487,10 @@ Lemma demo_multiset_union_permut_simpl_2 :
   (l1 \u \{x} \u l3 \u l2) \c (l1 \u l2 \u l4 \u (\{x} \u l3)).
 Proof using.
   intros.
+  rew_permut_simpl.
+  apply permut_tactic_setup.
+  (* Print union_assoc. *)
+  Time repeat rewrite <- union_assoc.
   permut_simpl_prepare.
   permut_simpl_once.
   permut_simpl_once.

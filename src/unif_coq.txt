@@ -1,0 +1,27 @@
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagUnion (multiset A) ->
+                             multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful 
+                               ?R0 (Morphisms.respectful eq ?r)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagIncl (multiset A) ->
+                             multiset A -> multiset A -> Prop),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq
+                               (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              

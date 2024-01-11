@@ -1,0 +1,68 @@
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R0
+                     (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R0
+	  (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?R (Morphisms.respectful eq ?r))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation (Morphisms.respectful eq ?r))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful eq ?r)) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation ?r)
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?r) with backtracking
+1.1-1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?r), 0 subgoal(s)
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R
+                     (Morphisms.respectful eq
+                        (Morphisms.respectful ?r (Basics.flip Basics.impl))))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                          (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)

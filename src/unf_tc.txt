@@ -1,0 +1,496 @@
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagUnion (multiset A) ->
+                             multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful 
+                               ?R0 (Morphisms.respectful eq ?r)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagIncl (multiset A) ->
+                             multiset A -> multiset A -> Prop),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq
+                               (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          RelationClasses.relation_equivalence)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) iff))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation 
+                               (multiset A) Basics.impl))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) eq))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq ?r),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) eq))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq ?r),
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq ?r), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> multiset A),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq ?r), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagIncl (multiset A) ->
+                             multiset A -> multiset A -> Prop),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq
+                               (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          RelationClasses.relation_equivalence)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) iff))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation 
+                               (multiset A) Basics.impl))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) eq))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A),
+                          Morphisms.respectful eq ?r,
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A),
+                          Morphisms.respectful eq ?r, 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A),
+                          Morphisms.respectful eq ?r,
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A),
+                          Morphisms.respectful eq ?r, 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A),
+                          Morphisms.respectful eq ?r, 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (BagIncl (multiset A) ->
+                             multiset A -> multiset A -> Prop),
+                          Morphisms.respectful ?R
+                            (Morphisms.respectful eq
+                               (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          RelationClasses.relation_equivalence)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) iff))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation 
+                               (multiset A) Basics.impl))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation 
+                            (multiset A)
+                            (Morphisms.pointwise_relation (multiset A) eq))
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)),
+                          Morphisms.pointwise_relation (multiset A) eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  unit|
+  Init.Unconvertible|ZApp(Relation_Definitions.relation
+	                        (multiset A -> multiset A -> Prop),
+                          Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl)), 
+                          eq)
+  
+[unification] unit|
+	          unit|
+              
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  Relation_Definitions.relation|ZApp(?A)
+  
+[unification]
+  forall A : Type, Relation_Definitions.relation A -> Prop|
+  ?A -> ?A -> Prop|
+  

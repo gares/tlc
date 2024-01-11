@@ -1,0 +1,233 @@
+make[1]: Entering directory '/home/dfissore/Documents/github/tlc-stat/src'
+COQC perf.v
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug: [handle_takeover] [success] Time of resolve_all_evars is 0.003550
+
+Debug:
+[handle_takeover] [success] Time of resolve_typeclass_evars is 0.003590
+
+Debug: [handle_takeover] [success] Time of solve_inst is 0.003600
+
+Debug: [handle_takeover] [success] Time of resolve_one_typeclass is 0.000101
+
+Debug: [handle_takeover] There are 1 clusters after first split  5
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.004269
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.004350
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.004358
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.008547
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.008582
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.008588
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.003587
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.003617
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.003624
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.003862
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.003893
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.003900
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.004380
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.004675
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.004685
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.003659
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.003701
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.003707
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.005030
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.005067
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.005073
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.003751
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.003785
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.003792
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_all_evars is 0.003713
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of resolve_typeclass_evars is 0.003745
+
+Debug:
+[handle_takeover]
+  [Coq Error: [TC] fail to solve 
+app
+ [global (const «RelationClasses.Reflexive»), sort prop, 
+  global (const «Basics.impl»)] fail ] Time of solve_inst is 0.003752
+
+Debug:
+[handle_takeover]
+  [Pretype_errors.PretypeError(_, _, _) fail ] Time of resolve_all_evars is 0.132333
+
+Debug:
+[handle_takeover]
+  [Pretype_errors.PretypeError(_, _, _) fail ] Time of resolve_typeclass_evars is 0.132353
+
+Debug:
+[handle_takeover]
+  [Pretype_errors.PretypeError(_, _, _) fail ] Time of solve_inst is 0.132357
+
+Debug: [handle_takeover] There are 1 clusters after first split  1
+Debug: [handle_takeover] [success] Time of resolve_all_evars is 0.003205
+
+Debug:
+[handle_takeover] [success] Time of resolve_typeclass_evars is 0.003229
+
+Debug: [handle_takeover] [success] Time of solve_inst is 0.003235
+
+Finished transaction in 0.14 secs (0.133u,0.007s) (successful)
+make[1]: Leaving directory '/home/dfissore/Documents/github/tlc-stat/src'

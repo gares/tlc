@@ -1,0 +1,679 @@
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R0
+                     (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R0
+	  (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?R (Morphisms.respectful eq ?r))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation (Morphisms.respectful eq ?r))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful eq ?r)) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation ?r)
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?r) with backtracking
+1.1-1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?r), 0 subgoal(s)
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R
+                     (Morphisms.respectful eq
+                        (Morphisms.respectful ?r (Basics.flip Basics.impl))))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                          (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.2-1 : (RelationClasses.Equivalence
+	               (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                          (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                           (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 0 possibilities
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful eq
+                  (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful eq
+                              (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R
+              (Morphisms.respectful eq
+                 (Morphisms.respectful ?r (Basics.flip Basics.impl)))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R
+                         (Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl))))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R
+                          (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl))))), 0 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1: simple apply @RelationClasses.relation_equivalence_rewrite_relation on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.1-1.2: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R), 1 subgoal(s)
+1.1-1.2-1.1-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1.1-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1-1.1: exact RelationClasses.iff_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.2: exact RelationClasses.impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.3: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.4: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.3: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R ?R'))
+1.2-1: looking for (RelationClasses.Equivalence (Morphisms.respectful ?R ?R')) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R ?R')), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful eq
+                     (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful ?r (Basics.flip Basics.impl))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful eq
+                          (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.1-1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1.1-1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful eq ?r))
+1.1-1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                          (Morphisms.respectful eq ?r)) with backtracking
+1.1-1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                           (Morphisms.respectful eq ?r)), 4 possibilities
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful ?R
+                             (Morphisms.respectful eq ?r))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful ?R
+                              (Morphisms.respectful eq ?r))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R0
+	  (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R0
+              (Morphisms.respectful ?R (Morphisms.respectful eq ?r))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R0
+                         (Morphisms.respectful ?R
+                            (Morphisms.respectful eq ?r)))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R0
+                          (Morphisms.respectful ?R
+                             (Morphisms.respectful eq ?r)))), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R0 ?R')) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R0 ?R')), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation ?R0)
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?R0) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R0), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation ?R0)
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?R0) with backtracking
+1.1-1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R0), 0 subgoal(s)
+1.1-1.1-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R0), 0 subgoal(s)
+1.1-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R0 ?R')), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R0 ?R'))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R0 ?R')) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R0 ?R')), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R (Morphisms.respectful eq ?r))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation (Morphisms.respectful eq ?r))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful eq ?r)) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation ?r)
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?r) with backtracking
+1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?r), 0 subgoal(s)
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R
+                     (Morphisms.respectful eq
+                        (Morphisms.respectful ?r (Basics.flip Basics.impl))))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                          (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.2-1 : (RelationClasses.Equivalence
+	               (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                          (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                           (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 0 possibilities
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful eq
+                  (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful eq
+                              (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R
+              (Morphisms.respectful eq
+                 (Morphisms.respectful ?r (Basics.flip Basics.impl)))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R
+                         (Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl))))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R
+                          (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl))))), 0 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1: simple apply @RelationClasses.relation_equivalence_rewrite_relation on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.1-1.2: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R), 1 subgoal(s)
+1.1-1.2-1.1-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1.1-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1-1.1: exact RelationClasses.iff_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.2: exact RelationClasses.impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.3: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.4: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.3: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R ?R'))
+1.2-1: looking for (RelationClasses.Equivalence (Morphisms.respectful ?R ?R')) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R ?R')), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful eq
+                     (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful ?r (Basics.flip Basics.impl))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful eq
+                          (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful eq ?r))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful eq ?r)) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful eq ?r)), 4 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R (Morphisms.respectful eq ?r)))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R (Morphisms.respectful eq ?r))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R (Morphisms.respectful eq ?r))), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (Morphisms.Params (@union) ?H0) with backtracking
+1: no match for (Morphisms.Params (@union) ?H0), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R0 (Morphisms.respectful ?R ?R'))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R0 (Morphisms.respectful ?R ?R'))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R'))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?R ?R')) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.1-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R ?R'))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful ?R ?R')) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful ?R ?R')), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R0 (Morphisms.respectful ?R ?R'))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R0 (Morphisms.respectful ?R ?R')))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R0 (Morphisms.respectful ?R ?R'))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R0
+                          (Morphisms.respectful ?R ?R'))), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R ?R'))
+1.2-1: looking for (RelationClasses.Equivalence (Morphisms.respectful ?R ?R')) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R ?R')), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?r)
+1.1-1: looking for (RelationClasses.RewriteRelation ?r) with backtracking
+1.1-1.1: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?r), 0 subgoal(s)
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful ?R
+                     (Morphisms.respectful eq
+                        (Morphisms.respectful ?r (Basics.flip Basics.impl))))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                          (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1.2-1 : (RelationClasses.Equivalence
+	               (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                          (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                           (Morphisms.respectful 
+                                  ?r (Basics.flip Basics.impl))), 0 possibilities
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful eq
+                  (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl)))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful eq
+                              (Morphisms.respectful 
+                                 ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?R
+	  (Morphisms.respectful eq
+         (Morphisms.respectful ?r (Basics.flip Basics.impl))))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful ?R
+              (Morphisms.respectful eq
+                 (Morphisms.respectful ?r (Basics.flip Basics.impl)))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful ?R
+                         (Morphisms.respectful eq
+                            (Morphisms.respectful 
+                               ?r (Basics.flip Basics.impl))))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R
+                          (Morphisms.respectful eq
+                             (Morphisms.respectful 
+                                ?r (Basics.flip Basics.impl))))), 0 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (Morphisms.Params (@incl) ?H0) with backtracking
+1: no match for (Morphisms.Params (@incl) ?H0), 1 possibilities
+1: looking for (RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation ?R')
+1.1-1: looking for (RelationClasses.RewriteRelation ?R') with backtracking
+1.1-1.1: simple apply @RelationClasses.relation_equivalence_rewrite_relation on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.1-1.2: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R'), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation ?R), 1 subgoal(s)
+1.1-1.2-1.1-1 : (RelationClasses.RewriteRelation ?R)
+1.1-1.2-1.1-1: looking for (RelationClasses.RewriteRelation ?R) with backtracking
+1.1-1.2-1.1-1.1: exact RelationClasses.iff_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.2: exact RelationClasses.impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.3: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.1-1.4: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.2-1.2: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R), 0 subgoal(s)
+1.1-1.3: (*external*) (Morphisms.eq_rewrite_relation A) on
+(RelationClasses.RewriteRelation ?R'), 0 subgoal(s)
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful ?R ?R')), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful ?R ?R'))
+1.2-1: looking for (RelationClasses.Equivalence (Morphisms.respectful ?R ?R')) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful ?R ?R')), 0 possibilities
+1: looking for (RelationClasses.RewriteRelation
+	              (Morphisms.respectful eq
+                     (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.1-1 : (RelationClasses.RewriteRelation
+	       (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1: looking for (RelationClasses.RewriteRelation
+	                  (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.1: (*external*) Morphisms.rewrite_relation_fun on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.1-1 : (RelationClasses.RewriteRelation (Basics.flip Basics.impl))
+1.1-1.1-1: looking for (RelationClasses.RewriteRelation
+	                      (Basics.flip Basics.impl)) without backtracking
+1.1-1.1-1.1: exact RelationClasses.inverse_impl_rewrite_relation on
+(RelationClasses.RewriteRelation (Basics.flip Basics.impl)), 0 subgoal(s)
+1.1-1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful ?r (Basics.flip Basics.impl))), 1 subgoal(s)
+1.1-1.2-1 : (RelationClasses.Equivalence
+	           (Morphisms.respectful ?r (Basics.flip Basics.impl)))
+1.1-1.2-1: looking for (RelationClasses.Equivalence
+	                      (Morphisms.respectful ?r (Basics.flip Basics.impl))) with backtracking
+1.1-1.2-1: no match for (RelationClasses.Equivalence
+	                       (Morphisms.respectful ?r (Basics.flip Basics.impl))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation
+   (Morphisms.respectful eq
+	  (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence
+	       (Morphisms.respectful eq
+              (Morphisms.respectful ?r (Basics.flip Basics.impl))))
+1.2-1: looking for (RelationClasses.Equivalence
+	                  (Morphisms.respectful eq
+                         (Morphisms.respectful ?r (Basics.flip Basics.impl)))) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence
+	                   (Morphisms.respectful eq
+                          (Morphisms.respectful ?r (Basics.flip Basics.impl)))), 0 possibilities
+1.2: (*external*) (RelationClasses.equiv_rewrite_relation R) on
+(RelationClasses.RewriteRelation (Morphisms.respectful eq ?r)), 1 subgoal(s)
+1.2-1 : (RelationClasses.Equivalence (Morphisms.respectful eq ?r))
+1.2-1: looking for (RelationClasses.Equivalence (Morphisms.respectful eq ?r)) with backtracking
+1.2-1: no match for (RelationClasses.Equivalence (Morphisms.respectful eq ?r)), 4 possibilities

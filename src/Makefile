@@ -37,3 +37,13 @@ clean::
 	@ rm -f Makefile.generated Makefile.generated.conf
 	@ rm -rf .lia.cache
 	@ rm -rf *.v.d .*.aux
+
+
+multiset:
+	make clean && make -j LibMultiset.vo &> /dev/null
+
+perf:
+	make perf.vo > stat1.txt
+
+stat:
+	python3 get_data.py stat1.txt
