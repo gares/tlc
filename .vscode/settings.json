@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+      "**/*.aux": true,
+      "**/*.vos": true,
+      "**/*.vok": true,
+      "**/*.glob": true,
+      "**/.lia.cache": true,
+      "**/*.generated.*": true,
+      "**/*.vo": true,
+  },
+  "restructuredtext.confPath": "${workspaceFolder}/alectryon/recipes/sphinx",
+  "ocaml.server.args": [
+    "--fallback-read-dot-merlin"
+  ],
+}
