@@ -31,7 +31,9 @@ Definition sig_proof (A : Type) (P : A->Prop) (e : sig P) : P (sig_val e) :=
 (** The proposition [Inhab A] captures the fact that the type [A] is
     inhabited (i.e., there exists at least one value of type [A]). *)
 
-#[mode(i)] TC.Declare Class Inhab (A:Type) : Prop :=
+TC.Pending_mode "!".
+
+Class Inhab (A:Type) : Prop :=
   { Inhab_intro : (exists (x:A), True) }.
 Arguments Inhab_intro {_ _}.
 
