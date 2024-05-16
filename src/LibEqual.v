@@ -10,6 +10,10 @@ Generalizable Variables A.
 From elpi.apps Require Export tc.
 Elpi Override TC TC.Solver All.
 
+Elpi Accumulate TC.Solver lp:{{
+  :after "0" is-reversed.
+  % :after "normalize-ty" tc.link.scope-check _ _ :- !, true.
+}}.
 (* ********************************************************************** *)
 (** * Definition of equality *)
 
@@ -51,7 +55,7 @@ Notation "'<>' x" := (fun y => y <> x)
     features an extensional equality, in the sense that to prove the
     equality between two values of type [A] it suffices to prove that
     those two values are related by some binary relation. *)
-
+TC.Pending_mode "!". 
 Class Extensionality (A:Type) := Extensionality_make {
   extensionality_hyp : A -> A -> Prop;
   extensionality : forall (x y : A), extensionality_hyp x y -> x = y }.
